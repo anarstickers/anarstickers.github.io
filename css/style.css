@@ -186,12 +186,12 @@ footer {
     .sticker_1 {
         width: 167.70px;
         margin: 14.37px;
-        margin-left: 200px;
+        margin-left: 100px;
         border: 2.39px solid #000;
     }
     
     button {
-        margin-left: 250px;
+        margin-left: 150px;
         background-color: rgb(115, 180, 11);
         border: none;
         color: white;
