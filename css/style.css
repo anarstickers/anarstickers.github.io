@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(237, 246, 102);
+}
+nav { 
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(115, 180, 11);
+    border-bottom: 2px solid #000;
+}
+    
+nav a {
+    float: right;
+    color: #000;
+    text-align: center;
+    margin-right: 10px;;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav h1 {
+    float: left;
+    color: #000;
+    text-align: center;
+    margin-left: 24px;
+    text-decoration: none;
+    font-size: 16px;
+} 
+
+nav a:hover {
+    background-color: rgb(115, 180, 11);
+    color: black;
+}
+
+p {
+    text-align: center;
+    font-size: 36px;
+    font-family: Staatliches, cursive;
+    background-color: rgb(237, 246, 102);
+}
+
+.sticker_1 {
+    width: 350px;
+    margin: 30px;
+    border: 5px solid #000;
+}
+
+button {
+    margin-left: 125px;
+    background-color: rgb(115, 180, 11);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px
+}
+
+footer {
+    margin: 0;
+    background-color: rgb(115, 180, 11);
+}
+
+@media (max-width: 1200px )  {
+    nav { 
+        text-align: center;
+        overflow: hidden;
+        background-color: rgb(115, 180, 11);
+        border-bottom: 2px solid #000;
+    }
+        
+    nav a {
+        float: right;
+        color: #000;
+        text-align: center;
+        margin-right: 10px;;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    nav h1 {
+        float: left;
+        color: #000;
+        text-align: center;
+        margin-left: 24px;
+        text-decoration: none;
+        font-size: 16px;
+    } 
+    
+    nav a:hover {
+        background-color: rgb(115, 180, 11);
+        color: black;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 36px;
+        font-family: Staatliches, cursive;
+        background-color: rgb(237, 246, 102);
+    }
+    
+    .sticker_1 {
+        width: 350px;
+        margin: 30px;
+        border: 5px solid #000;
+    }
+    
+    button {
+        margin-left: 125px;
+        background-color: rgb(115, 180, 11);
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 20px
+    }
+    
+    footer {
+        margin: 0;
+        background-color: rgb(115, 180, 11);
+    }
+}
+
+@media (max-width: 991px) {
+    nav { 
+        text-align: center;
+        overflow: hidden;
+        background-color: rgb(115, 180, 11);
+        border-bottom: 1.65px solid #000;
+    }
+        
+    nav a {
+        float: right;
+        color: #000;
+        text-align: center;
+        margin-right: 8.25px;;
+        padding: 11.56px 13.21px;
+        text-decoration: none;
+        font-size: 14.03px;
+    }
+    
+    nav h1 {
+        float: left;
+        color: #000;
+        text-align: center;
+        margin-left: 19.82px;
+        text-decoration: none;
+        font-size: 13.21px;
+    } 
+    
+    nav a:hover {
+        background-color: rgb(115, 180, 11);
+        color: black;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 29.73px;
+        font-family: Staatliches, cursive;
+        background-color: rgb(237, 246, 102);
+    }
+    
+    .sticker_1 {
+        width: 289.04px;
+        margin: 24.77px;
+        border: 4.12px solid #000;
+    }
+    
+    button {
+        margin-left: 103.22px;
+        background-color: rgb(115, 180, 11);
+        border: none;
+        color: white;
+        padding: 9.91px 24.77px;
+        cursor: pointer;
+        font-size: 16.51px
+    }
+    
+    footer {
+        background-color: rgb(115, 180, 11);
+    }
+}
+ @media (max-width: 575px ) {
+    .sticker_1 {
+        width: 167.70px;
+        margin: 14.37px;
+        margin-left: 200px;
+        border: 2.39px solid #000;
+    }
+    
+    button {
+        margin-left: 250px;
+        background-color: rgb(115, 180, 11);
+        border: none;
+        color: white;
+        padding: 5.75px 14.37px;
+        cursor: pointer;
+        font-size: 9.58px
+    }
+}
