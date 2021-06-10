@@ -200,3 +200,22 @@ footer {
         font-size: 9.58px
     }
 }
+
+@media (max-width: 488px ) {
+    .sticker_1 {
+        width: 167.70px;
+        margin: 14.37px;
+        margin-left: 100px;
+        border: 2.39px solid #000;
+    }
+    
+    button {
+        margin-left: 125px;
+        background-color: rgb(115, 180, 11);
+        border: none;
+        color: white;
+        padding: 5.75px 14.37px;
+        cursor: pointer;
+        font-size: 9.58px
+    }
+}
